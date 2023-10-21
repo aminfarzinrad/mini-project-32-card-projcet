@@ -43,7 +43,24 @@ body{
     text-align: center;
     padding: 37px 22px;
     transform: skewY(-4deg);
+    transition: all 0.3s ease-in;
 }
+.box_main:hover{
+    background-color: #fff;
+}
+.box_main:hover .title_box_main{
+    color: #000;
+}
+.box_main:hover .text_content_box_main{
+    color: #444444;
+}
+.box_main:hover .item{
+    color: #000;
+}
+.box_main:hover .btn{
+    background-color: #f36100;
+}
+.box_main:hover .title_box_main{}
 .title_box_main{
     transform: skewY(4deg);
     font-size: 28px;
