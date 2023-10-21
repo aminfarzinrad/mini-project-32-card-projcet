@@ -33,6 +33,10 @@ body{
 }
 .main{
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    gap: 19px;
 }
 .box_main{
     border: 1px solid #464646;
