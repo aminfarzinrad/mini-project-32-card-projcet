@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'tanha';
+    src: url(/fonts/Tanha-FD.woff2);
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'tanha';
+}
