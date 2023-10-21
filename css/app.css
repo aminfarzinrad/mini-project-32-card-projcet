@@ -35,12 +35,21 @@ body{
 }
 .title_box_main{
     transform: skewY(4deg);
+    font-size: 28px;
+    color: #fff;
 }
 .content_box_main{
     transform: skewY(4deg);
 }
-.number_price_content_box{}
-.text_content_box_main{}
+.number_price_content_box{
+    color: #f36100;
+    font-size: 58px;
+    margin-bottom: 12px;
+}
+.text_content_box_main{
+    color: #c4c4c4;
+    font-weight: 700;
+}
 .list{
     transform: skewY(4deg);
 }
