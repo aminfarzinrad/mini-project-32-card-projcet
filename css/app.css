@@ -9,6 +9,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul{
+    list-style: none;
+}
 body{
     font-family: 'tanha';
     background-color: #151515;
@@ -56,8 +59,13 @@ body{
 }
 .list{
     transform: skewY(4deg);
+    margin: 38px 0px;
 }
-.item{}
+.item{
+    color: #c4c4c4;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
 .btn{
     transform: skewY(4deg);
 }
