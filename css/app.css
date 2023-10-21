@@ -16,7 +16,11 @@ body{
 .section_price{
     padding: 62px 0px;
 }
-.container{}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 19px;
+}
 .header{}
 .text_header{
     color: #fff;
