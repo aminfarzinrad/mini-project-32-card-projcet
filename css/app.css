@@ -68,4 +68,12 @@ body{
 }
 .btn{
     transform: skewY(4deg);
+    width: 90%;
+    padding: 14px 24px;
+    background-color: #333333;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'tanha';
 }
