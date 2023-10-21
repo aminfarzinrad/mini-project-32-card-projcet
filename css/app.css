@@ -24,12 +24,27 @@ body{
     font-size: 1rem;
     font-weight: 700;
 }
-.main{}
-.box_main{}
-.title_box_main{}
-.content_box_main{}
+.main{
+    margin-top: 50px;
+}
+.box_main{
+    border: 1px solid #464646;
+    text-align: center;
+    padding: 37px 22px;
+    transform: skewY(-4deg);
+}
+.title_box_main{
+    transform: skewY(4deg);
+}
+.content_box_main{
+    transform: skewY(4deg);
+}
 .number_price_content_box{}
 .text_content_box_main{}
-.list{}
+.list{
+    transform: skewY(4deg);
+}
 .item{}
-.btn{}
+.btn{
+    transform: skewY(4deg);
+}
